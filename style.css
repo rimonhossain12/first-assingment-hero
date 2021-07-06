@@ -21,7 +21,7 @@ body{
 .left-div .header-color{
     color:orange;
 }
-p{
+.para-style{
     font-size: 20px;
     color:gray;
     padding-bottom: 30px;
@@ -61,4 +61,25 @@ p{
     padding-top: 50px;
     color:gray;
     font-size:30px;
+}
+.experience{
+    padding:20px;
+    text-align: center;
+}
+
+.experience-title{
+   margin: 0 auto;
+   width: 50%;
+}
+.experience-title h3{
+    font-size: 30px;
+    color:gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.experience-title p{
+    line-height: 1.2;
+    text-align: center;
+    /* font-style: italic; */
+    /* font-weight: bold; */
+    font-size: 18px;
 }
