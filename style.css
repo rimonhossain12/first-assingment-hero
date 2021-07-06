@@ -83,3 +83,73 @@ body{
     /* font-weight: bold; */
     font-size: 18px;
 }
+
+/* card design part start */
+.card-desing{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card{
+    /*border:2px solid black;*/
+    width:25%;
+    padding:5px;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+    width: 25%;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+.card p{
+    line-height: 1.2;
+    font-size: 19px;
+}
+
+.resturant-details{
+    max-width: 95%;
+    height: 280px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 12px red;
+    margin: auto;
+    /* justify-content: center;
+    align-items: center; */
+}
+.desc-details{
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#resturant-header{
+    padding:10px 20px;
+    font-size: 30px;
+    color: cadetblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.left-div{
+    float: left;
+    width: 40%;
+   
+    text-align: left;
+
+
+}
+
+.left-div strong,p,.right-div,p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.right-div{
+    float: left;
+    width: 40%;
+    text-align: left;
+}
